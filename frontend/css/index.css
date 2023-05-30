@@ -1,0 +1,16 @@
+#calc_input {
+    background-color: aqua;
+    display: none;
+}
+
+#i_type_form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10%;
+    gap: 30px;
+}
+

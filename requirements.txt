@@ -1,0 +1,14 @@
+click==8.1.3
+commonmark==0.9.1
+Jinja2==3.1.2
+MarkupSafe==2.1.2
+mpmath==1.3.0
+platformdirs==2.6.2
+pluggy==1.0.0
+Pygments==2.15.1
+pyscript==0.2.5
+rich==12.6.0
+rich-click==1.6.1
+sympy==1.11.1
+toml==0.10.2
+typer==0.4.2

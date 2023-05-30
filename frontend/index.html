@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+  
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/index.css">
+
+  <title>Calculator</title>
+  </head>
+
+  <body>
+
+    <section id="i_type_form">
+        <div id="title"></div>
+        <form class="display-column" onsubmit="return false">
+            <select class="input" id="i_type">
+                <option value="undefined">Integral Indefinida</option>
+                <option value="primitive">Primitiva</option>
+                <option value="antiderivative">Antiderivada</option>
+            </select>
+
+            <input class="button" py-click="submit()" type="submit" value="enviar">
+        </form>
+    </section>
+    
+    <section>
+        <input id="calc_input" name="calc_input" type="text" />
+    </section>
+
+    <py-script src="python/main.py"></py-script>
+  </body>
+</html>
